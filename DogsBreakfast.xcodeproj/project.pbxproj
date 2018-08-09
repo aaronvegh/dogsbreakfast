@@ -13,18 +13,18 @@
 		93F87989211B3C1D003D8EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F87988211B3C1D003D8EF6 /* Assets.xcassets */; };
 		93F8798C211B3C1D003D8EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F8798A211B3C1D003D8EF6 /* LaunchScreen.storyboard */; };
 		93F87997211B3C1E003D8EF6 /* DogsBreakfastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F87996211B3C1E003D8EF6 /* DogsBreakfastTests.swift */; };
-		93F879A2211B3C1E003D8EF6 /* DogsBreakfastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879A1211B3C1E003D8EF6 /* DogsBreakfastUITests.swift */; };
+		93F879B0211B3E66003D8EF6 /* DogsBreakfastResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879AF211B3E66003D8EF6 /* DogsBreakfastResultCell.swift */; };
+		93F879B4211B4119003D8EF6 /* DogsBreakfastOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879B3211B4119003D8EF6 /* DogsBreakfastOperations.swift */; };
+		93F879B6211B425C003D8EF6 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879B5211B425B003D8EF6 /* ConcurrentOperation.swift */; };
+		93F879B8211B5DBA003D8EF6 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879B7211B5DBA003D8EF6 /* Recipe.swift */; };
+		93F879C0211B7E22003D8EF6 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879BF211B7E22003D8EF6 /* UIViewController+Alert.swift */; };
+		93F879C2211B7ED7003D8EF6 /* UIImageView+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879C1211B7ED7003D8EF6 /* UIImageView+Async.swift */; };
+		93F879C4211B8081003D8EF6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F879C3211B8081003D8EF6 /* WebViewController.swift */; };
+		93F879C6211B8F09003D8EF6 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 93F879C5211B8F09003D8EF6 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		93F87993211B3C1E003D8EF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93F87976211B3C1C003D8EF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93F8797D211B3C1C003D8EF6;
-			remoteInfo = DogsBreakfast;
-		};
-		93F8799E211B3C1E003D8EF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 93F87976211B3C1C003D8EF6 /* Project object */;
 			proxyType = 1;
@@ -44,9 +44,14 @@
 		93F87992211B3C1E003D8EF6 /* DogsBreakfastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsBreakfastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F87996211B3C1E003D8EF6 /* DogsBreakfastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreakfastTests.swift; sourceTree = "<group>"; };
 		93F87998211B3C1E003D8EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93F8799D211B3C1E003D8EF6 /* DogsBreakfastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsBreakfastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F879A1211B3C1E003D8EF6 /* DogsBreakfastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreakfastUITests.swift; sourceTree = "<group>"; };
-		93F879A3211B3C1E003D8EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F879AF211B3E66003D8EF6 /* DogsBreakfastResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreakfastResultCell.swift; sourceTree = "<group>"; };
+		93F879B3211B4119003D8EF6 /* DogsBreakfastOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreakfastOperations.swift; sourceTree = "<group>"; };
+		93F879B5211B425B003D8EF6 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentOperation.swift; sourceTree = "<group>"; };
+		93F879B7211B5DBA003D8EF6 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		93F879BF211B7E22003D8EF6 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		93F879C1211B7ED7003D8EF6 /* UIImageView+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Async.swift"; sourceTree = "<group>"; };
+		93F879C3211B8081003D8EF6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		93F879C5211B8F09003D8EF6 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93F8799A211B3C1E003D8EF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +77,6 @@
 			children = (
 				93F87980211B3C1C003D8EF6 /* DogsBreakfast */,
 				93F87995211B3C1E003D8EF6 /* DogsBreakfastTests */,
-				93F879A0211B3C1E003D8EF6 /* DogsBreakfastUITests */,
 				93F8797F211B3C1C003D8EF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +86,6 @@
 			children = (
 				93F8797E211B3C1C003D8EF6 /* DogsBreakfast.app */,
 				93F87992211B3C1E003D8EF6 /* DogsBreakfastTests.xctest */,
-				93F8799D211B3C1E003D8EF6 /* DogsBreakfastUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +93,11 @@
 		93F87980211B3C1C003D8EF6 /* DogsBreakfast */ = {
 			isa = PBXGroup;
 			children = (
-				93F87981211B3C1C003D8EF6 /* AppDelegate.swift */,
-				93F87983211B3C1C003D8EF6 /* ViewController.swift */,
-				93F87985211B3C1C003D8EF6 /* Main.storyboard */,
-				93F87988211B3C1D003D8EF6 /* Assets.xcassets */,
-				93F8798A211B3C1D003D8EF6 /* LaunchScreen.storyboard */,
-				93F8798D211B3C1D003D8EF6 /* Info.plist */,
+				93F879B9211B5DC7003D8EF6 /* Application */,
+				93F879BC211B5DFC003D8EF6 /* Data */,
+				93F879BE211B7DF9003D8EF6 /* Extensions */,
+				93F879BB211B5DDF003D8EF6 /* View Controllers */,
+				93F879BD211B5E11003D8EF6 /* Resources */,
 			);
 			path = DogsBreakfast;
 			sourceTree = "<group>";
@@ -112,17 +107,57 @@
 			children = (
 				93F87996211B3C1E003D8EF6 /* DogsBreakfastTests.swift */,
 				93F87998211B3C1E003D8EF6 /* Info.plist */,
+				93F879C5211B8F09003D8EF6 /* test.json */,
 			);
 			path = DogsBreakfastTests;
 			sourceTree = "<group>";
 		};
-		93F879A0211B3C1E003D8EF6 /* DogsBreakfastUITests */ = {
+		93F879B9211B5DC7003D8EF6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				93F879A1211B3C1E003D8EF6 /* DogsBreakfastUITests.swift */,
-				93F879A3211B3C1E003D8EF6 /* Info.plist */,
+				93F87981211B3C1C003D8EF6 /* AppDelegate.swift */,
+				93F8798D211B3C1D003D8EF6 /* Info.plist */,
 			);
-			path = DogsBreakfastUITests;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		93F879BB211B5DDF003D8EF6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93F87983211B3C1C003D8EF6 /* ViewController.swift */,
+				93F879C3211B8081003D8EF6 /* WebViewController.swift */,
+				93F879AF211B3E66003D8EF6 /* DogsBreakfastResultCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		93F879BC211B5DFC003D8EF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				93F879B7211B5DBA003D8EF6 /* Recipe.swift */,
+				93F879B3211B4119003D8EF6 /* DogsBreakfastOperations.swift */,
+				93F879B5211B425B003D8EF6 /* ConcurrentOperation.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		93F879BD211B5E11003D8EF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93F87988211B3C1D003D8EF6 /* Assets.xcassets */,
+				93F87985211B3C1C003D8EF6 /* Main.storyboard */,
+				93F8798A211B3C1D003D8EF6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93F879BE211B7DF9003D8EF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93F879C1211B7ED7003D8EF6 /* UIImageView+Async.swift */,
+				93F879BF211B7E22003D8EF6 /* UIViewController+Alert.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,24 +198,6 @@
 			productReference = 93F87992211B3C1E003D8EF6 /* DogsBreakfastTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		93F8799C211B3C1E003D8EF6 /* DogsBreakfastUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93F879AC211B3C1E003D8EF6 /* Build configuration list for PBXNativeTarget "DogsBreakfastUITests" */;
-			buildPhases = (
-				93F87999211B3C1E003D8EF6 /* Sources */,
-				93F8799A211B3C1E003D8EF6 /* Frameworks */,
-				93F8799B211B3C1E003D8EF6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93F8799F211B3C1E003D8EF6 /* PBXTargetDependency */,
-			);
-			name = DogsBreakfastUITests;
-			productName = DogsBreakfastUITests;
-			productReference = 93F8799D211B3C1E003D8EF6 /* DogsBreakfastUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +212,6 @@
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					93F87991211B3C1D003D8EF6 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 93F8797D211B3C1C003D8EF6;
-					};
-					93F8799C211B3C1E003D8EF6 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 93F8797D211B3C1C003D8EF6;
 					};
@@ -219,7 +232,6 @@
 			targets = (
 				93F8797D211B3C1C003D8EF6 /* DogsBreakfast */,
 				93F87991211B3C1D003D8EF6 /* DogsBreakfastTests */,
-				93F8799C211B3C1E003D8EF6 /* DogsBreakfastUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,13 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93F8799B211B3C1E003D8EF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				93F879C6211B8F09003D8EF6 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F879B0211B3E66003D8EF6 /* DogsBreakfastResultCell.swift in Sources */,
+				93F879C4211B8081003D8EF6 /* WebViewController.swift in Sources */,
+				93F879B4211B4119003D8EF6 /* DogsBreakfastOperations.swift in Sources */,
 				93F87984211B3C1C003D8EF6 /* ViewController.swift in Sources */,
+				93F879B8211B5DBA003D8EF6 /* Recipe.swift in Sources */,
+				93F879B6211B425C003D8EF6 /* ConcurrentOperation.swift in Sources */,
 				93F87982211B3C1C003D8EF6 /* AppDelegate.swift in Sources */,
+				93F879C0211B7E22003D8EF6 /* UIViewController+Alert.swift in Sources */,
+				93F879C2211B7ED7003D8EF6 /* UIImageView+Async.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +282,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93F87999211B3C1E003D8EF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93F879A2211B3C1E003D8EF6 /* DogsBreakfastUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -284,11 +289,6 @@
 			isa = PBXTargetDependency;
 			target = 93F8797D211B3C1C003D8EF6 /* DogsBreakfast */;
 			targetProxy = 93F87993211B3C1E003D8EF6 /* PBXContainerItemProxy */;
-		};
-		93F8799F211B3C1E003D8EF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93F8797D211B3C1C003D8EF6 /* DogsBreakfast */;
-			targetProxy = 93F8799E211B3C1E003D8EF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -431,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DogsBreakfast/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DogsBreakfast/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DogsBreakfast/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DogsBreakfast/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,44 +500,6 @@
 			};
 			name = Release;
 		};
-		93F879AD211B3C1E003D8EF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DogsBreakfastUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.innoveghtive.DogsBreakfastUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DogsBreakfast;
-			};
-			name = Debug;
-		};
-		93F879AE211B3C1E003D8EF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DogsBreakfastUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.innoveghtive.DogsBreakfastUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DogsBreakfast;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,15 +526,6 @@
 			buildConfigurations = (
 				93F879AA211B3C1E003D8EF6 /* Debug */,
 				93F879AB211B3C1E003D8EF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93F879AC211B3C1E003D8EF6 /* Build configuration list for PBXNativeTarget "DogsBreakfastUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93F879AD211B3C1E003D8EF6 /* Debug */,
-				93F879AE211B3C1E003D8EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

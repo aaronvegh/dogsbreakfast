@@ -1,0 +1,56 @@
+{
+    "title": "Recipe Puppy",
+    "version": 0.1,
+    "href": "http:\/\/www.recipepuppy.com\/",
+    "results": [{
+                "title": "Amazing Taco Seasoning",
+                "href": "http:\/\/www.recipezaar.com\/Amazing-Taco-Seasoning-244839",
+                "ingredients": "cayenne, chili powder, cumin, onion powder, flour, garlic powder, oregano, paprika, salt, sugar",
+                "thumbnail": "http:\/\/img.recipepuppy.com\/59782.jpg"
+                }, {
+                "title": "Taco Seasoning Recipe",
+                "href": "http:\/\/www.grouprecipes.com\/40527\/taco-seasoning.html",
+                "ingredients": "mustard powder, chili powder, cumin, paprika",
+                "thumbnail": ""
+                }, {
+                "title": "Taco Seasoning",
+                "href": "http:\/\/www.recipezaar.com\/Taco-Seasoning-72663",
+                "ingredients": "black pepper, chili powder, onion powder, cumin, oregano, salt",
+                "thumbnail": "http:\/\/img.recipepuppy.com\/346469.jpg"
+                }, {
+                "title": "Chicken Taco Soup Recipe",
+                "href": "http:\/\/www.grouprecipes.com\/73112\/chicken-taco-soup.html",
+                "ingredients": "cheddar cheese, chicken, black beans, chili beans, corn, onions, taco seasoning, sour cream, tortilla chips",
+                "thumbnail": "http:\/\/img.recipepuppy.com\/221959.jpg"
+                }, {
+                "title": "Football Season Chili",
+                "href": "http:\/\/www.recipezaar.com\/Football-Season-Chili-51862",
+                "ingredients": "cayenne, chili powder, cumin, marjoram, oregano, garlic, green pepper, turkey, kosher salt, olive oil, onions, parsley, red kidney beans, tomato paste, tomato",
+                "thumbnail": ""
+                }, {
+                "title": "Taco Bell Fire Sauce Clone Recipe",
+                "href": "http:\/\/www.grouprecipes.com\/83589\/taco-bell-fire-sauce-clone.html",
+                "ingredients": "cayenne, chili powder, chilli, cumin, garlic powder, garlic salt, onions, paprika, red pepper, sugar, tomato, white wine vinegar",
+                "thumbnail": ""
+                }, {
+                "title": "Catalina 'Taco' Salad",
+                "href": "http:\/\/www.recipezaar.com\/Catalina-Taco-Salad-68223",
+                "ingredients": "salad dressing, cheddar cheese, ground beef, lettuce, onions, tortilla chips",
+                "thumbnail": "http:\/\/img.recipepuppy.com\/285158.jpg"
+                }, {
+                "title": "The Taco Rack Grilled Tuna Tacos Recipe",
+                "href": "http:\/\/www.grouprecipes.com\/81249\/the-taco-rack-grilled-tuna-tacos.html",
+                "ingredients": "chili sauce, avocado, carrot, cucumber, daikon radish, ginger, lemon, mango, red onions, salt, salt, soy sauce, taco shells, lime juice, olive oil, cracked black pepper, sesame seed, kosher salt, cilantro, thai basil, salad dressing, salad greens, salsa, tuna, ginger, vegetable oil, watercress, steak",
+                "thumbnail": "http:\/\/img.recipepuppy.com\/351291.jpg"
+                }, {
+                "title": "Taco Sauce Recipe",
+                "href": "http:\/\/www.grouprecipes.com\/33044\/taco-sauce.html",
+                "ingredients": "red pepper flakes, salt, chili powder, cumin, garlic powder, onion powder, oregano",
+                "thumbnail": ""
+                }, {
+                "title": "Impossibly Easy Taco Pie",
+                "href": "http:\/\/allrecipes.com\/Recipe\/Impossibly-Easy-Taco-Pie\/Detail.aspx",
+                "ingredients": "eggs, ground beef, milk, monterey jack cheese, salsa, onions, bisquick, sour cream",
+                "thumbnail": "http:\/\/img.recipepuppy.com\/13762.jpg"
+                }]
+}
